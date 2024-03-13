@@ -1,0 +1,66 @@
+.mask {
+  background: linear-gradient(to bottom, #79BEEE, white); /* Gradient background */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mask a {
+  text-decoration: none;
+  color: #150578;
+  margin-right: 20px;
+}
+
+.mask a:hover {
+  color: #0E0E52;
+  text-decoration: underline;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.search,
+.menu {
+  background-color: transparent;
+  color: #150578;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.search:hover,
+.menu:hover {
+  background-color: #150578;
+}
+
+img {
+  display: block;
+  margin: 20px auto; /* Centering the image */
+  max-width: 100%;
+  height: auto;
+}
+
+
+.img-logo {
+  display:flex ;
+  margin: 10px ;
+  max-width: 10%;
+}
+
+
+
+
+
