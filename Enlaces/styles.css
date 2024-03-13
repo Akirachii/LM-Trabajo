@@ -28,8 +28,7 @@
   margin-right: 10px;
 }
 
-.search,
-.menu {
+.clients {
   background-color: transparent;
   color: #150578;
   border: none;
@@ -38,7 +37,7 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin-left: 10px;
+  margin-left: 60px;
 }
 
 .search:hover,
@@ -60,6 +59,11 @@ img {
   max-width: 10%;
 }
 
+footer{
+  display: block;
+  background: linear-gradient(to top, #79BEEE, #150578 );
+  border-radius: 20px;
+}
 
 
 
